@@ -18,36 +18,41 @@ FreeSWITCH 是一个比较复杂的软件，如果自己编译也是需要花费
 
 | 依赖库                                                                            | 版本                               | FS 1.10 | FS 1.8 | FS 1.6 |
 | --------------------------------------------------------------------------------- | ---------------------------------- | ------- | ------ | ------ |
-| [lua](https://github.com/lua/lua.git)                                             | v5.4.4                             | ✓       | ✓      | ✓      |
-| [sqlite3](https://sqlite.org/)                                                    | 3.39.0+200                         | ✓       | ✓      | ✓      |
-| [sofia-sip](https://github.com/freeswitch/sofia-sip.git)                          | v1.13.9                            | ✓       | ✓      | ✓      |
-| [speex](https://github.com/xiph/speex.git)                                        | 1.2.1                              | ✓       | ✓      | ✓      |
-| [speexdsp](https://github.com/xiph/speexdsp.git)                                  | 1.2.1                              | ✓       | ✓      | ✓      |
-| [libsndfile](https://github.com/libsndfile/libsndfile.git)                        | 1.0.31                             | ✓       | ✓      | ✓      |
-| [libflac](https://github.com/xiph/flac.git)                                       | 1.3.3                              | ✓       | ✓      | ✓      |
-| [libopus](https://gitlab.xiph.org/xiph/opus.git)                                  | 1.3.1                              | ✓       | ✓      | ✓      |
-| [libvorbis](https://gitlab.xiph.org/xiph/vorbis.git)                              | 1.3.7                              | ✓       | ✓      | ✓      |
-| [libogg](https://gitlab.xiph.org/xiph/ogg.git)                                    | v1.3.4                             | ✓       | ✓      | ✓      |
-| [spandsp](https://github.com/freeswitch/spandsp.git)                              | e59ca8f                            | ✓       | ✓      | ✓      |
-| [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo.git)               | 2.1.4                              | ✓       | ✓      | ✓      |
-| [libtiff](https://gitlab.com/libtiff/libtiff.git)                                 | v4.4.0                             | ✓       | ✓      | ✓      |
-| [libedit](https://www.thrysoee.dk/editline/)                                      | 20210910-3.1                       | ✓       | ✓      | ✓      |
-| [ncurses](https://ftp.gnu.org/pub/gnu/ncurses)                                    | 6.3                                | ✓       | ✓      | ✓      |
 | [ffmpeg](https://git.ffmpeg.org/ffmpeg.git)                                       | 3.2.18                             | ✓       | ✓      | ✓      |
-| [x265](https://github.com/videolan/x265.git)                                      | 3.4                                | ✓       | ✓      | ✓      |
-| [x264](http://git.videolan.org/git/x264.git)                                      | v2021.09.29                        | ✓       | ✓      | ✓      |
-| [libcurl](https://curl.haxx.se)                                                   | 7.84.0                             | ✓       | ✓      | ✓      |
 | [freetype](https://www.freetype.org)                                              | 2.12.1                             | ✓       | ✓      | ✓      |
+| [krb5](https://kerberos.org/dist/krb5)                                            | 1.19.2                             | ✓       | ×      | ×      |
+| [ldns](https://nlnetlabs.nl/ldns)                                                 | 1.8.3(FS1.8~FS1.10)/1.6.17(FS1.6)  | ✓       | ✓      | ✓      |
+| [libcurl](https://curl.haxx.se)                                                   | 7.84.0                             | ✓       | ✓      | ✓      |
+| [libedit](https://www.thrysoee.dk/editline/)                                      | 20210910-3.1                       | ✓       | ✓      | ✓      |
+| [libflac](https://github.com/xiph/flac.git)                                       | 1.3.3                              | ✓       | ✓      | ✓      |
+| [libjpeg-turbo](https://github.com/libjpeg-turbo/libjpeg-turbo.git)               | 2.1.4                              | ✓       | ✓      | ✓      |
+| [libks](https://github.com/signalwire/libks)                                      | v1.8.0                             | ✓       | ×      | ×      |
+| [libogg](https://gitlab.xiph.org/xiph/ogg.git)                                    | v1.3.4                             | ✓       | ✓      | ✓      |
+| [libopus](https://gitlab.xiph.org/xiph/opus.git)                                  | 1.3.1                              | ✓       | ✓      | ✓      |
 | [libpng](https://github.com/glennrp/libpng.git)                                   | v1.6.37                            | ✓       | ✓      | ✓      |
 | [libpq](https://github.com/postgres/postgres)                                     | 13.8                               | ✓       | ×      | ×      |
-| [krb5](https://kerberos.org/dist/krb5)                                            | 1.19.2                             | ✓       | ×      | ×      |
-| [libverto](https://github.com/latchset/libverto)                                  | 0.3.2                              | ✓       | ×      | ×      |
-| [libks](https://github.com/signalwire/libks)                                      | v1.8.0                             | ✓       | ×      | ×      |
+| [libshout](https://icecast.org/download/)                                         | 2.4.6                              | ✓       | ✓      | ✓      |
+| [libsndfile](https://github.com/libsndfile/libsndfile.git)                        | 1.0.31                             | ✓       | ✓      | ✓      |
+| [libtiff](https://gitlab.com/libtiff/libtiff.git)                                 | v4.4.0                             | ✓       | ✓      | ✓      |
 | [libuuid](https://sourceforge.net/projects/libuuid)                               | 1.0.3                              | ✓       | ✓      | ✓      |
+| [libverto](https://github.com/latchset/libverto)                                  | 0.3.2                              | ✓       | ×      | ×      |
+| [libvorbis](https://gitlab.xiph.org/xiph/vorbis.git)                              | 1.3.7                              | ✓       | ✓      | ✓      |
+| [lua](https://github.com/lua/lua.git)                                             | v5.4.4                             | ✓       | ✓      | ✓      |
 | [mariadb-connector-c](https://github.com/mariadb-corporation/mariadb-connector-c) | 3.1.13                             | ✓       | ×      | ×      |
-| [ldns](https://nlnetlabs.nl/ldns)                                                 | 1.8.3(FS1.8~FS1.10)/1.6.17(FS1.6)  | ✓       | ✓      | ✓      |
+| [mp3lame](https://lame.sourceforge.io/)                                           | 3.100                              | ✓       | ✓      | ✓      |
+| [ncurses](https://ftp.gnu.org/pub/gnu/ncurses)                                    | 6.3                                | ✓       | ✓      | ✓      |
+| [opencore-amr](https://sourceforge.net/projects/opencore-amr/)                    | 0.1.6                              | ✓       | ✓      | ✓      |
+| [openh264](https://github.com/cisco/openh264)                                     | v2.1.1                             | ✓       | ✓      | ✓      |
 | [openssl](https://www.openssl.org)                                                | 1.1.1q(FS1.8~FS1.10)/1.0.2u(FS1.6) | ✓       | ✓      | ✓      |
 | [pcre](https://www.pcre.org)                                                      | 8.45(FS1.8~FS1.10)/8.32(FS1.6)     | ✓       | ✓      | ✓      |
+| [sofia-sip](https://github.com/freeswitch/sofia-sip.git)                          | v1.13.9                            | ✓       | ✓      | ✓      |
+| [spandsp](https://github.com/freeswitch/spandsp.git)                              | e59ca8f                            | ✓       | ✓      | ✓      |
+| [speex](https://github.com/xiph/speex.git)                                        | 1.2.1                              | ✓       | ✓      | ✓      |
+| [speexdsp](https://github.com/xiph/speexdsp.git)                                  | 1.2.1                              | ✓       | ✓      | ✓      |
+| [sqlite3](https://sqlite.org/)                                                    | 3.39.0+200                         | ✓       | ✓      | ✓      |
+| [vo-amrwbenc](https://sourceforge.net/projects/opencore-amr/)                     | 0.1.3                              | ✓       | ✓      | ✓      |
+| [x264](http://git.videolan.org/git/x264.git)                                      | 66a5bc1                            | ✓       | ✓      | ✓      |
+| [x265](https://github.com/videolan/x265.git)                                      | 3.4                                | ✓       | ✓      | ✓      |
 | [zlib](http://www.zlib.net)                                                       | v1.2.12                            | ✓       | ✓      | ✓      |
 
 ## 快速使用
@@ -59,3 +64,57 @@ FreeSWITCH 是一个比较复杂的软件，如果自己编译也是需要花费
 ./stop.sh # stop FS
 ./cli.sh # run fs_cli
 ```
+
+### 模块说明
+
+| 模块              | 备注 |
+| ----------------- | ---- |
+| amr               |      |
+| amrwb             |      |
+| av                |      |
+| b64               |      |
+| cdr_csv           |      |
+| cdr_sqlite        |      |
+| commands          |      |
+| conference        |      |
+| console           |      |
+| curl              |      |
+| db                |      |
+| dialplan_asterisk |      |
+| dialplan_xml      |      |
+| dptools           |      |
+| enum              |      |
+| esf               |      |
+| event_socket      |      |
+| expr              |      |
+| fifo              |      |
+| fsv               |      |
+| g723_1            |      |
+| g729              |      |
+| h26x              |      |
+| openh264          |      |
+| hash              |      |
+| httapi            |      |
+| local_stream      |      |
+| logfile           |      |
+| loopback          |      |
+| lua               |      |
+| native_file       |      |
+| opus              |      |
+| png               |      |
+| rtc               |      |
+| say_en            |      |
+| skinny            |      |
+| sms               |      |
+| sndfile           |      |
+| shout             |      |
+| sofia             |      |
+| spandsp           |      |
+| syslog            |      |
+| tone_stream       |      |
+| valet_parking     |      |
+| verto             |      |
+| voicemail         |      |
+| xml_cdr           |      |
+| xml_rpc           |      |
+| xml_scgi          |      |
